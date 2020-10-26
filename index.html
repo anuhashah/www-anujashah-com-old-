@@ -17,14 +17,7 @@
 		  text-align: center;
 		}
 
-		.title 
-		{
-		  background: black;
-		  color: red;
-		  font-size: 64px;
-		  text-align: center;
-		  padding: 5px;
-		}
+
 		</style>
 
 		<!--Navi -->
@@ -41,6 +34,15 @@
 			  text-align: center;
 			  padding: 5px;
 			}
+			
+			.title 
+			{
+		  		background: black;
+				color: red;
+				font-size: 64px;
+				text-align: center;
+				padding: 5px;
+			}
 
 			.navi 
 			{
@@ -55,12 +57,6 @@
 			  padding: 16px;
 			}
 
-			.change
-			{
-				padding: 16px;
-				color: red;
-			}
-
 			.sticky 
 			{
 			  position: fixed;
@@ -68,7 +64,7 @@
 			  width: 100%;
 			}
 
-			.sticky + .content + .change
+			.sticky + .content
 			{
 			  padding-top: 102px;
 			}
@@ -86,11 +82,6 @@
   			<h2>Navigation</h2>
 		</div>
 
-		<div class = "change" id = "ChangeColor">
-			<p>This is my first web page. It is very basic, but it is helping me understand HTML.</p>
-		</div>
-		<button id ='color'> Change color! </button>
-
 		<div class= "content">
 		  <h3>On Scroll Sticky Header</h3>
 		  <p>The header will stick to the top when you reach its scroll position.</p>
@@ -105,26 +96,6 @@
 		  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
 		</div>
 		
-
-		<!-- Change text color button-->
-		<script>
-			document.getElementById('color').onclick = changeColor;
-			var currentColor = "red";
-			function changeColor()
-			{
-				if(currentColor == "red")
-				{
-					change.color = "green";
-					currentColor = "green";
-				}
-				else
-				{
-					change.color = "red";
-					currentColor = "red";
-				}
-				return currentColor;
-			}
-		</script>
 
 		<!--Sticky nav tab-->
 		<script>
