@@ -13,6 +13,7 @@
 			{
 				background-color: black;
 				text-align: center;
+				padding: 0px 30px;
 			}
 
 			.title 
@@ -25,15 +26,43 @@
 				margin: 0;
 			}
 
-			.navi 
+			.topnav 
 			{
 				padding: 10px 16px;
 				background: black;
 				color: white;
 				text-align: center;
+				overflow: hidden;
 				border-spacing: 5px;
 				border-color: white;
 				border-style: solid;
+			}
+			.topnav 
+			{
+				overflow: hidden;
+				background-color: #333;
+			}
+
+			.topnav a 
+			{
+				float: left;
+				color: #f2f2f2;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				font-size: 17px;
+			}
+
+			.topnav a:hover 
+			{
+				background-color: #ddd;
+				color: black;
+			}
+
+			.topnav a.active 
+			{
+				background-color: #4CAF50;
+				color: white;
 			}
 
 			.content 
@@ -60,9 +89,13 @@
 			<h1>ANUJA SHAH</h1>
 		</div>
 
-		<div class= "navi" id="myNavi">
-  			<h2>Navigation</h2>
+		<div class= "topnav" id="myTopNav">
+  			<a class="active" href="#home">Home</a>
+			<a href="#news">News</a>
+			<a href="#contact">Contact</a>
+			<a href="#about">About</a>
 		</div>
+
 
 		<div class= "content">
 		  <h3>On Scroll Sticky Header</h3>
@@ -85,21 +118,21 @@
 			window.onscroll = function() {myFunction()};
 
 			// Get the header
-			var navi = document.getElementById("myNavi");
+			var topnav = document.getElementById("myTopNav");
 
 			// Get the offset position of the navbar
-			var sticky = navi.offsetTop;
+			var sticky = topnav.offsetTop;
 
 			// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 			function myFunction() 
 			{
 				 if (window.pageYOffset > sticky) 
 				 {
-				 	navi.classList.add("sticky");
+				 	topnav.classList.add("sticky");
 				 } 
 				 else 
 				 {
-				 	navi.classList.remove("sticky");
+				 	topnav.classList.remove("sticky");
 				 }
 			}
 		</script>
