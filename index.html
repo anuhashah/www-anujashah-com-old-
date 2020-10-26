@@ -30,42 +30,53 @@
 		<!--Navi -->
 		<style>
 		body 
-		{
-		  margin: 0;
-		  font-family: Arial, sans-serif;
-		}
+			{
+			  margin: 0;
+			  font-family: Arial, sans-serif;
+			}
 
-		.top-container 
-		{
-		  background-color: black;
-		  padding: 30px;
-		  text-align: center;
-		}
+			.top-container 
+			{
+			  background-color: black;
+			  padding: 30px;
+			  text-align: center;
+			}
 
-		.navi 
-		{
-		  padding: 10px 16px;
-		  background: black;
-		  color: white;
-		  text-align: center;
-		}
+			.navi 
+			{
+			  padding: 10px 16px;
+			  background: black;
+			  color: white;
+			  text-align: center;
+			}
 
-		.content 
-		{
-		  padding: 16px;
-		}
+			.content 
+			{
+			  padding: 16px;
+			}
 
-		.sticky 
-		{
-		  position: fixed;
-		  top: 0;
-		  width: 100%;
-		}
+			.sticky 
+			{
+			  position: fixed;
+			  top: 0;
+			  width: 100%;
+			}
 
-		.sticky + .content 
-		{
-		  padding-top: 102px;
-		}
+			.sticky + .content 
+			{
+			  padding-top: 102px;
+			}
+		</style>
+
+		<style>
+			body
+			{
+				font-family: Arial, sans-serif;
+			}
+			.change
+			{
+				color: red;
+			}
 		</style>
 	</head>
 
@@ -92,8 +103,9 @@
 		  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
 		</div>
 		
-
-		<p>This is my first web page. It is very basic, but it is helping me understand HTML.</p>
+		<div class = "change" id = "ChangeColor">
+			<p>This is my first web page. It is very basic, but it is helping me understand HTML.</p>
+		</div>
 		<button id ='color'> Change color! </button>
 		<script>
 			document.getElementById('color').onclick = changeColor;
@@ -102,12 +114,12 @@
 			{
 				if(currentColor == "red")
 				{
-					document.body.style.color = "green";
+					change.body.style.color = "green";
 					currentColor = "green";
 				}
 				else
 				{
-					document.body.style.color = "red";
+					change.body.style.color = "red";
 					currentColor = "red";
 				}
 				return currentColor;
