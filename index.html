@@ -92,8 +92,8 @@
 
 		<div class = "change" id = "ChangeColor">
 			<p>This is my first web page. It is very basic, but it is helping me understand HTML.</p>
-			<button id ='color'> Change color! </button>
 		</div>
+		<button id ='color'> Change color! </button>
 
 		<div class= "content">
 		  <h3>On Scroll Sticky Header</h3>
@@ -112,18 +112,18 @@
 
 		<!-- Change text color button-->
 		<script>
-			change.getElementById('color').onclick = changeColor;
+			document.getElementById('color').onclick = changeColor;
 			var currentColor = "red";
 			function changeColor()
 			{
 				if(currentColor == "red")
 				{
-					change.body.style.color = "green";
+					change.color = "green";
 					currentColor = "green";
 				}
 				else
 				{
-					change.body.style.color = "red";
+					change.color = "red";
 					currentColor = "red";
 				}
 				return currentColor;
