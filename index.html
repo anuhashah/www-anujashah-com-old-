@@ -13,7 +13,40 @@
 				color: black;
 			}
 		</style>
+		<style>
+		body {
+		  margin: 0;
+		  font-family: Arial, Helvetica, sans-serif;
+		}
+
+		.top-container {
+		  background-color: #f1f1f1;
+		  padding: 30px;
+		  text-align: center;
+		}
+
+		.header {
+		  padding: 10px 16px;
+		  background: #555;
+		  color: #f1f1f1;
+		}
+
+		.content {
+		  padding: 16px;
+		}
+
+		.sticky {
+		  position: fixed;
+		  top: 0;
+		  width: 100%;
+		}
+
+		.sticky + .content {
+		  padding-top: 102px;
+		}
+		</style>
 	</head>
+
 	<body>
 		<h1> ANUJA SHAH </h1>
 		<style>
@@ -29,6 +62,12 @@
 				color: black;
 			}
 		</style>
+
+		<div class="header" id="myHeader">
+  			<h2>My Header</h2>
+		</div>
+		
+
 		<p>This is my first web page. It is very basic, but it is helping me understand HTML.</p>
 		<button id ='color'> Change color! </button>
 		<script>
@@ -47,6 +86,31 @@
 					currentColor = "red";
 				}
 				return currentColor;
+			}
+		</script>
+
+		<!--Sticky nav tab-->
+		<script>
+			// When the user scrolls the page, execute myFunction
+			window.onscroll = function() {myFunction()};
+
+			// Get the header
+			var header = document.getElementById("myHeader");
+
+			// Get the offset position of the navbar
+			var sticky = header.offsetTop;
+
+			// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+			function myFunction() 
+			{
+				 if (window.pageYOffset > sticky) 
+				 {
+				 	header.classList.add("sticky");
+				 } 
+				 else 
+				 {
+				 	header.classList.remove("sticky");
+				 }
 			}
 		</script>
 	</body>
