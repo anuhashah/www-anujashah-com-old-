@@ -22,7 +22,7 @@
 			    color: #363636;
 			}
 
-			#social, #links, #title 
+			#social, .links, #title 
 			{
 			    display: inline-block;
 			    vertical-align: top;
@@ -34,11 +34,17 @@
 			    position: absolute;
    				right: 0;
    				font-size:32px;
-   				color: #363636;
+   				color: #ededed;
    				padding: 0px 30px;
 			}
 
-			#links 
+			#title 
+			{
+			    text-align: center;
+			    font size: 80px;
+			}
+
+			.links 
 			{
 			    position: absolute;
     			left: 0;
@@ -47,10 +53,24 @@
     			padding: 0px 30px;
 			}
 
-			#title 
+			.links a 
 			{
-			    text-align: center;
-			    font size: 80px;
+				color: #ededed;
+				text-decoration: none;
+			}
+
+			.links a:hover 
+			{
+				background-color: white;
+				color: black;
+				border-spacing: 5px;
+				border-style: solid;
+				border-color: black;
+			}
+
+			.links a.active 
+			{
+				color: #363636;
 			}
 
 			.content
@@ -72,7 +92,7 @@
                     <span class="fa fa-instagram"></span>
                </div>
 
-	            <div id="links">
+	            <div  class = "links "id="myLinks">
 	  				<a class ="active" href="index.html">HOME</a>
 					<a href ="_Links/resume.html">RESUME</a>
 					<a href ="#contact">CONTACT</a>
