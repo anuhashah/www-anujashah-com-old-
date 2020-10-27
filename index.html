@@ -77,7 +77,23 @@
 				color: #363636;
 			}
 
-			.endpage
+			#bottomsocial span
+			{
+				display: inline-flex;
+				align-items: center;
+				text-decoration: none;
+			    font-family: Verdana, Geneva, sans-serif;
+			    color: #363636;
+			    opacity: 0.4;
+			    transition: 0.3s;
+			}
+
+			#bottomsocial span:hover
+			{
+				opacity: 1;
+			}
+
+			.copyright
 			{
 				text-align: center;
 				padding: 50px 100px;
@@ -116,7 +132,6 @@
 
 
 
-
 		<div class= "content">
 		  <p>The header will stick to the top when you reach its scroll position.</p>
 		  <p>Scroll back up to remove the sticky effect.</p>
@@ -131,7 +146,15 @@
 		</div>
 
 		<div class = "endpage">
-			<p> Anuja Shah © 2020 </p>
+			<div id = "bottomsocial">
+				<a href = "https://github.com/anuhashah" target = "_blank"><span class="fab fa-github-square" style="padding: 0px 10px; transition: 0.3s;"></span></a>
+				<a href = "https://www.linkedin.com/in/anujapshah/" target = "_blank"><span class="fab fa-linkedin" style="padding: 0px 10px; transition: 0.3s;"></span></a>
+		        <a href = "https://www.instagram.com/anujashah/" target = "_blank"><span class="fab fa-instagram-square" style="padding: 0px 10px; transition: 0.3s;"></span></a>
+        	</div>
+
+			<div class = "copyright">
+				<p> Anuja Shah © 2020 </p>
+			</div>
 		</div>
 		
 	</body>
