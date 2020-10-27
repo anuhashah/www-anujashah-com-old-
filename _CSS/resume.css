@@ -1,0 +1,48 @@
+.page, .section, .summary, #download a
+			{
+				font-family: Verdana, Geneva, sans-serif;
+				color: #363636;
+			}
+
+			.page
+			{
+				padding: 70px 20px;
+				text-align: center;
+				font-size: 20px;
+			}
+
+			.resume
+			{
+				padding: 20px 400px;
+				text-align: justify;
+			}
+
+			.section
+			{
+				text-decoration: underline solid black;
+				font-size: 17px;
+			}
+
+			.summary
+			{
+				font-size: 13px;
+			}
+
+			#download
+			{
+				text-align: center;
+			}
+
+			#download a
+			{
+				padding: 50px 20px;
+				font-size: 20px;
+				opacity: 0.7;
+				text-decoration: none;
+				transition: 0.3s;
+			}
+
+			#download a:hover
+			{
+				opacity: 1;
+			}
