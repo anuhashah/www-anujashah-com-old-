@@ -9,6 +9,7 @@
 
 			.top 
 			{
+				top: 20%;
 				display: inline-flex;
 				align-items: center;
 			    background-color: #f7f7f7;
