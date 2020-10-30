@@ -3,6 +3,7 @@
 			    padding: 0px;
 			    background-color: #f7f7f7;
 			    font-family: 'Helvetica', 'Arial', sans-serif;
+			    color: #363636;
 			}
 
 
@@ -17,8 +18,6 @@
 
 			#social a, .links a, #title a, #bottomsocial
 			{
-
-				color: #363636;
 			    transition: 0.3s;
 			}
 
