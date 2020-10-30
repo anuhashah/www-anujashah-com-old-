@@ -22,8 +22,9 @@
     background-color: #f7f7f7;
     width: 100%;
     text-align: center;
+    border-top: 2px solid transparent;;
     border-bottom: 2px solid transparent;
-    transition: border-color 1s ease;  
+    transition: border-color 0.1s ease;  
 }
 
 #social a, .links a, #title a, #bottomsocial
