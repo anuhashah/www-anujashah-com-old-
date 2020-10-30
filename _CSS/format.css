@@ -15,7 +15,7 @@
 
 .top 
 {
-	position: relative; 
+	position: fixed; 
 	padding: 1% 0px;
 	/* margin-top: 1%;  transparent at margin */
 	display: inline-flex;
