@@ -23,6 +23,7 @@
     width: 100%;
     text-align: center;
     border-bottom: 2px solid transparent;
+    transition: border-color 1s ease;  
 }
 
 #social a, .links a, #title a, #bottomsocial
