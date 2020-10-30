@@ -3,13 +3,13 @@
 			    padding: 0px;
 			    background-color: #f7f7f7;
 			    font-family: 'Helvetica', 'Arial', sans-serif;
-			    color: #363636;
+			    color: red;
+			    top: 20%;
 			}
 
 
 			.top 
 			{
-				top: 20%;
 				display: inline-flex;
 				align-items: center;
 			    background-color: #f7f7f7;
