@@ -15,8 +15,9 @@
 
 .top 
 {
-	position: fixed; 
-	margin-top: 1%; /* not working rn?? --> */
+	position: relative; 
+	padding: 1% 0px;
+	/* margin-top: 1%;  transparent at margin */
 	display: inline-flex;
 	align-items: center;
     background-color: #f7f7f7;
