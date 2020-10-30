@@ -15,7 +15,7 @@
 
 .top 
 {
-	margin-top: 10%;
+	margin-top: 20%; /* not working rn?? --> */
 	display: inline-flex;
 	align-items: center;
     background-color: #f7f7f7;
