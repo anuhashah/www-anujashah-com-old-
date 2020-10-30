@@ -86,6 +86,31 @@
 			</div>
 
         </div>  
+
+
+        <script>
+        	import "./format.css";
+
+        	// When the user scrolls the page, execute myFunction
+			window.onscroll = function() {scrollBorder()};
+
+			// Get the header
+			var header = document.getElementByClassName("top");
+
+			// Get the offset position of the navbar
+			var scroll = header.offsetTop;
+
+			// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+			function scrollBorder() {
+			  if (window.pageYOffset > scroll) {
+			  		header.style.border = "2px solid #E6E6E6";
+			  } 
+			  else 
+			  {
+			    	header.style.border = "2px solid transparent";
+			  }
+			}
+        </script>
 		
 	</body>
 </html>
