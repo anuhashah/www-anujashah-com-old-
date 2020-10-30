@@ -2,6 +2,7 @@
 				margin: 0 auto;
 			    padding: 0px;
 			    background-color: #f7f7f7;
+			    font-family: 'Helvetica', 'Arial', sans-serif;
 			}
 
 
@@ -14,9 +15,9 @@
 			    text-align: center;
 			}
 
-			#social span, .links a, #title a, #bottomsocial
+			#social, .links a, #title a, #bottomsocial
 			{
-				font-family: 'Helvetica', 'Arial', sans-serif;
+
 				color: #363636;
 			    transition: 0.3s;
 			}
