@@ -3,7 +3,7 @@
     padding: 0px;
     background-color: #f7f7f7;
     font-family: 'Helvetica', 'Arial', sans-serif;
-    color: #363636;
+    color: #3F3F3F;
 }
 
 .page
@@ -22,7 +22,7 @@
     background-color: #f7f7f7;
     width: 100%;
     text-align: center;
-    border-bottom: 2px solid #AAAAAA;
+    border-bottom: 2px solid transparent;
 }
 
 #social a, .links a, #title a, #bottomsocial
