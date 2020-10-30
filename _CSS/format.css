@@ -9,7 +9,6 @@
 
 			.top 
 			{
-				padding: 50px 0px;
 				display: inline-flex;
 				align-items: center;
 			    background-color: #f7f7f7;
@@ -35,7 +34,6 @@
 			    text-align: center;
 			    font-size: 35px;
 			    text-decoration: none;
-			    letter-spacing: 3px;
 			}
 
 			.links 
