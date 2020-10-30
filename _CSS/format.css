@@ -4,10 +4,6 @@
 			    background-color: #f7f7f7;
 			}
 
-			.container
-			{
-
-			}
 
 			.top 
 			{
@@ -18,7 +14,7 @@
 			    text-align: center;
 			}
 
-			#social, .links a, #title a, #bottomsocial
+			#social span, .links a, #title a, #bottomsocial
 			{
 				font-family: 'Helvetica', 'Arial', sans-serif;
 				color: #363636;
