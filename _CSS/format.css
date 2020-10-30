@@ -15,7 +15,7 @@
 
 .top 
 {
-	position: relative; 
+	position: fixed; 
 	margin-top: 1%; /* not working rn?? --> */
 	display: inline-flex;
 	align-items: center;
@@ -31,7 +31,7 @@
 
 #social
 {
-    position: absolute;
+    position: absolute;r
 	right: 0;
 	font-size: 23px;
 	padding: 0px 40px;
