@@ -16,7 +16,7 @@
 .top 
 {
 	position: relative; 
-	margin-top: 5%; /* not working rn?? --> */
+	margin-top: 1%; /* not working rn?? --> */
 	display: inline-flex;
 	align-items: center;
     background-color: #f7f7f7;
