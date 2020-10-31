@@ -1,96 +1,41 @@
-<html>
-	<head>
-		<link rel="icon" type="image/png" href="/IMG_9020.PNG"/>
+.class
+{
+  display: flex;
+  align-items: center;
+}
 
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-		
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #E6E6E6; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
 
-		<title> Anuja Shah </title>	
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: white;
+  color: #E6E6E6;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color: 0.3s color: 0.3s;
+}
 
-		<link rel="stylesheet" href="../_CSS/format.css">
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #3F3F3F;
+  color: #E6E6E6;
+}
 
-		<style>
-			.working
-			{
-				padding: 70px 20px;
-				text-align: center;
-				font-size: 16px;
-			}
-		</style>
-
-	</head>
-
-	<body>
-		<div class = "container">
-            <div class = "top">
-
-               <div id = "social">
-                    <a href = "https://github.com/anuhashah" target = "_blank"><span class="fa fa-github" style="padding: 0px 15px; transition: 0.3s;"></span></a>
-                    <a href = "https://www.linkedin.com/in/anujapshah/" target = "_blank"><span class="fa fa-linkedin" style="padding: 0px 15px; transition: 0.3s;"></span></a>
-                    <a href = "https://www.instagram.com/anujashah/" target = "_blank"><span class="fa fa-instagram" style="padding: 0px 15px; transition: 0.3s;"></span></a>
-               </div>
-
-	            <div  class = "links "id="myLinks">
-					<a href=".." style="padding: 0px 15px">HOME</a>
-					<a href ="../resume" style="padding: 0px 15px">RESUME</a>
-					<a class ="active" href ="" style="padding: 0px 15px">CONTACT</a>
-					<a href ="../about" style="padding: 0px 15px">ABOUT</a>
-				</div>
-
-              	<h1 id="title">
-               		<a href= ".." >ANUJA SHAH</a>
-               	</h1>
-
-        	</div>
-
-        	<div class = "content">
-		        <div class= "page">
-		        	<h2> CONTACT </h2>
-		        </div> 
-
-
-		        <div class="contact">
-				  <form action="https://formspree.io/f/myybjwjk" method="POST">
-
-				    <label for="name">Name * </label> <br>
-				    <input type="text" id="name" name="name" placeholder="Your Name..."> <br> <br>
-
-				    <label for="mail">Email Address * </label> <br>
-				    <input type="text" id="mail" name="mail" placeholder="Your Email Address..."> <br> <br>
-
-				    <label for="subject">Subject * </label> <br>
-				    <input type="text" id = "subject" name="subject" placeholder="Your Subject..."></input> <br> <br>
-
-				    <label for="message">Message * </label> <br>
-				    <textarea id="message" name="message" placeholder="Your Message..." style="height:200px"></textarea> <br> <br>
-
-
-				    <input type="submit" value="Submit">
-
-				  </form>
-				</div>
-
-			</div>
-
-			<div class = "endpage">
-				<div id = "bottomsocial">
-					<a href = "https://github.com/anuhashah" target = "_blank"><span class="fab fa-github-square" style="padding: 0px 4px; transition: 0.3s;"></span></a>
-
-					<a href = "https://www.linkedin.com/in/anujapshah/" target = "_blank"><span class="fab fa-linkedin-square" style="padding: 0px 4px; transition: 0.3s;"></span></a>
-
-			        <a href = "https://www.instagram.com/anujashah/" target = "_blank"><span class="		        fab fa-instagram-square" style="padding: 0px 4px; transition: 0.3s;"></span></a>
-	        	</div>
-
-				<div class = "copyright">
-					<p> Anuja Shah © 2020 </p>
-				</div>
-			</div>
-        </div> 
-
-		<script src = "../_Scripts/scroll.js"> </script>
-		<script src = "../_Scripts/contact.js"> </script>
-
-
-	</body>
-</html>
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
