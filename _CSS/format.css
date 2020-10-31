@@ -1,94 +1,127 @@
-* {
-	margin: 0 auto;
-    padding: 0px;
-    background-color: #f7f7f7;
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    color: #3F3F3F;
-}
+<html>
+	<head>
+		<link rel="icon" type="image/png" href="/IMG_9020.PNG"/>
 
-.page
-{
-	padding: 150px 20px;
-	text-align: center;
-	font-size: 20px;
-}
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-.top
-{
-	position: fixed; 
-	padding: 1% 0px;
-	display: inline-flex;
-	align-items: center;
-    background-color: #f7f7f7;
-    width: 100%;
-    text-align: center;
-    border-bottom: 2px solid transparent;
-    transition: border-color 0.3s; /*ease*/
-}
+		<title> Anuja Shah </title>	
 
-#social a, .links a, #title a, #bottomsocial
-{
-    transition: 0.3s;
-}
+		<link rel="stylesheet" href="_CSS/format.css">
 
-#social
-{
-    position: absolute;
-	right: 0;
-	font-size: 23px;
-	padding: 0px 40px;
-}
-
-#title a
-{
-    text-align: center;
-    font-size: 37px;
-    text-decoration: none;
-}
-
-.links 
-{
-    position: absolute;
-	left: 0;
-	font-size: 12px;
-	padding: 0px 40px;
-}
-
-#bottomsocial 
-{
-	text-align: center;
-    font-size: 45px;
-}
+	</head>
 
 
-.links a, #social span, #title a:hover, #bottomsocial span
-{
-	opacity: 0.4;
-	text-decoration: none;
-}
+	<body>
+		<div class = "container">
+            <div class = "top">
 
-.links a:hover, .links a.active, #social span:hover, #bottomsocial span:hover
-{
-	opacity: 1;
-}
+               <div id = "social">
+                    <a href = "https://github.com/anuhashah" target = "_blank"><span class="fa fa-github" style="padding: 0px 15px; transition: 0.3s;"></span></a>
+                    <a href = "https://www.linkedin.com/in/anujapshah/" target = "_blank"><span class="fa fa-linkedin" style="padding: 0px 15px; transition: 0.3s;"></span></a>
+                    <a href = "https://www.instagram.com/anujashah/" target = "_blank"><span class="fa fa-instagram" style="padding: 0px 15px; transition: 0.3s;"></span></a>
+               </div>
 
-.scrolltest
-{
-	padding: 150px 300px;
-	text-align: justify;
-	font-size: 12px;
-	text-transform: uppercase;
-}
+	            <div  class = "links "id="myLinks">
+	  				<a class ="active" href="" style="padding: 0px 15px">HOME</a>
+					<a href ="resume" style="padding: 0px 15px">RESUME</a>
+					<a href ="contact" style="padding: 0px 15px">CONTACT</a>
+					<a href ="about" style="padding: 0px 15px">ABOUT</a>
+				</div>
 
-.copyright
-{
-	text-align: center;
-	font-size: 12px;
-	opacity: 0.4;
-	padding: 30px 0px;
-}
+              	<h1 id="title">
+               		<a href= "" >ANUJA SHAH</a>
+               	</h1>
 
-.endpage
-{
-	padding: 50px 100px;
-}
+        	</div>
+
+        	<div class= "content">
+
+        		<div class = "scrolltest">
+				  <p style = "color: ##363636;"> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. -Agnès Varda </p>
+				  <p style = "color: #870c08;"> <b> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. </b> </p>
+				  <p style = "color: ##363636;"> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. -Agnès Varda </p>
+				  <p style = "color: #870c08;"> <b> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. </b> </p>
+				  <p style = "color: ##363636;"> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. -Agnès Varda </p>
+				  <p style = "color: #870c08;"> <b> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. </b> </p>
+				  <p style = "color: ##363636;"> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. -Agnès Varda </p> 
+				  <p style = "color: #870c08;"> <b> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. </b> </p>
+				  <p style = "color: ##363636;"> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. -Agnès Varda </p>
+				  <p style = "color: #870c08;"> <b> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. </b> </p>
+				  <p style = "color: ##363636;"> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. -Agnès Varda </p>
+				  <p style = "color: #870c08;"> <b> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. </b> </p>
+				  <p style = "color: ##363636;"> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. -Agnès Varda </p>
+				  <p style = "color: #870c08;"> <b> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. </b> </p>
+				  <p style = "color: ##363636;"> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. -Agnès Varda </p>
+				  <p style = "color: #870c08;"> <b> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. </b> </p>
+				  <p style = "color: ##363636;"> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. -Agnès Varda </p>
+				  <p style = "color: #870c08;"> <b> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. </b> </p>
+				  <p style = "color: ##363636;"> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. -Agnès Varda </p>
+				  <p style = "color: #870c08;"> <b> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. </b> </p>
+				  <p style = "color: ##363636;"> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. -Agnès Varda </p> 
+				  <p style = "color: #870c08;"> <b> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. </b> </p>
+				  <p style = "color: ##363636;"> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. -Agnès Varda </p>
+				  <p style = "color: #870c08;"> <b> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. </b> </p>
+				  <p style = "color: ##363636;"> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. -Agnès Varda </p>
+				  <p style = "color: #870c08;"> <b> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. </b> </p>
+				  <p style = "color: ##363636;"> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. -Agnès Varda </p>
+				  <p style = "color: #870c08;"> <b> The first feminist gesture is to say: “Ok. They’re looking at me. But I’m looking at them.” The act of deciding to look, of deciding that the world is not defined by how people see me, but by how I see them. </b> </p>
+				</div>
+
+			</div>
+
+
+			<div class = "endpage">
+				<div id = "bottomsocial">
+					<a href = "https://github.com/anuhashah" target = "_blank"><span class="fab fa-github-square" style="padding: 0px 4px; transition: 0.3s;"></span></a>
+
+					<a href = "https://www.linkedin.com/in/anujapshah/" target = "_blank"><span class="fab fa-linkedin-square" style="padding: 0px 4px; transition: 0.3s;"></span></a>
+
+			        <a href = "https://www.instagram.com/anujashah/" target = "_blank"><span class="		        fab fa-instagram-square" style="padding: 0px 4px; transition: 0.3s;"></span></a>
+	        	</div>
+
+				<div class = "copyright">
+					<p> Anuja Shah © 2020 </p>
+				</div>
+			</div>
+
+        </div>  
+
+
+        <script>
+        	// When the user scrolls the page, execute myFunction
+			window.onscroll = function() {scrollBorder()};
+
+			// Get the header
+			var header = document.getElementsByClassName("top");
+
+			var linkActive = document.getElementsByClassNAME("links a.active")
+
+			/* Get the offset position of the navbar
+			var scroll = header.offsetTop; */
+
+			// Add the border to the header when you reach its scroll position. Remove border when you leave the scroll position
+			function scrollBorder() 
+			{
+			  if (window.pageYOffset > 0) {
+			  		for (var i=0;i<header.length; i++) 
+			  		{
+    					 header[i].style.borderBottom = "2px solid #E6E6E6";
+    				}
+    				linksActive.style.opacity = "0.4";
+			  } 
+			  else 
+			  {
+			  	if (window.pageYOffset == 0) {
+			  		for (var i=0;i<header.length; i++) 
+			  		{
+    					 header[i].style.borderBottom = "2px solid transparent";
+    				}
+			  	}
+			  	linksActive.style.opacity = "1";	
+			  }
+			}
+        </script>
+		
+	</body>
+</html>
