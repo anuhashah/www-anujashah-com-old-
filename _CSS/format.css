@@ -22,7 +22,7 @@
     background-color: #f7f7f7;
     width: 100%;
     text-align: center;
-    transition: 0.2s;
+    transition: border-color 0.2s;
 }
 
 #social a, .links a, #title a, #bottomsocial
