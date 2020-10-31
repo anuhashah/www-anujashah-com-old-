@@ -95,6 +95,8 @@
 			// Get the header
 			var header = document.getElementsByClassName("top");
 
+			var linkActive = document.getElementsByClassName("links a.active")[0];
+
 			/* Get the offset position of the navbar
 			var scroll = header.offsetTop; */
 
@@ -106,6 +108,7 @@
 			  		{
     					 header[i].style.borderBottom = "2px solid #E6E6E6";
     				}
+    				linksActive.style.opacity = "0.4";
 			  } 
 			  else 
 			  {
@@ -114,7 +117,8 @@
 			  		{
     					 header[i].style.borderBottom = "2px solid transparent";
     				}
-			  	}	
+			  	}
+			  	linksActive.style.opacity = "1";	
 			  }
 			}
         </script>
