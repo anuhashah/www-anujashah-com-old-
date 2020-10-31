@@ -1,5 +1,11 @@
+.class
+{
+  display: flex;
+  align-items: center;
+}
+
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
+input[type=text], textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: 1px solid #E6E6E6; /* Gray border */
