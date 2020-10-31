@@ -99,7 +99,8 @@
 			var scroll = header.offsetTop; */
 
 			// Add the border to the header when you reach its scroll position. Remove border when you leave the scroll position
-			function scrollBorder() {
+			function scrollBorder() 
+			{
 			  if (window.pageYOffset > 0) {
 			  		for (var i=0;i<header.length; i++) 
 			  		{
@@ -108,10 +109,12 @@
 			  } 
 			  else 
 			  {
+			  	if (window.pageYOffset == 0) {
 			  		for (var i=0;i<header.length; i++) 
 			  		{
     					 header[i].style.borderBottom = "none";
     				}
+			  	}	
 			  }
 			}
         </script>
