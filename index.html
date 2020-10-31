@@ -14,7 +14,7 @@
 
 	<body>
 		<div class = "container">
-            <div class = "top" id = "myTop">
+            <div class = "top">
 
                <div id = "social">
                     <a href = "https://github.com/anuhashah" target = "_blank"><span class="fa fa-github" style="padding: 0px 15px; transition: 0.3s;"></span></a>
@@ -93,7 +93,7 @@
 			window.onscroll = function() {scrollBorder()};
 
 			// Get the header
-			var header = document.getElementByID('top');
+			var header = document.getElementsByClassName("top");
 
 			/* Get the offset position of the navbar
 			var scroll = header.offsetTop; */
@@ -101,11 +101,11 @@
 			// Add the border to the header when you reach its scroll position. Remove border when you leave the scroll position
 			function scrollBorder() {
 			  if (window.pageYOffset > 0) {
-			  		header.style.borderBottom = '2px solid #E6E6E6';
+			  		header.style.borderBottom = "2px solid #E6E6E6";
 			  } 
 			  else 
 			  {
-			    	header.style.borderBottom = 'none';
+			    	header.style.borderBottom = "none";
 			  }
 			}
         </script>
