@@ -1,7 +1,8 @@
+/* Add a background color and some padding around the form */
 .contact
 {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   border-radius: 5px;
   background-color: #f7f7f7;
   padding: 0px 300px;
@@ -30,10 +31,10 @@ input[type=submit] {
   transition: background-color: 0.3s color: 0.3s;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button, hange color */
 input[type=submit]:hover {
   background-color: #3F3F3F;
   color: #E6E6E6;
 }
 
-/* Add a background color and some padding around the form */
+
